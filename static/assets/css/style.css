@@ -2398,3 +2398,22 @@ span.meta_more:before {
         font-size: 17px
     }
 }
+
+/* Make the tag position relative to the figure */
+.figure.tag {
+    position: relative;
+}
+  /* set the base styles all tags should use */
+.figure.tag::before {
+    position: absolute;
+    top: 10%;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+  /* Specific variations for different tags */
+.figure.tag-example::before {
+    content: "Example";
+    background: black;
+}

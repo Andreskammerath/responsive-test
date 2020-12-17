@@ -2402,18 +2402,34 @@ span.meta_more:before {
 /* Make the tag position relative to the figure */
 .figure.tag {
     position: relative;
-}
+  }
   /* set the base styles all tags should use */
-.figure.tag::before {
+  .figure.tag::before {
     position: absolute;
     top: 10%;
     display: block;
     color: white;
     padding: 0.5rem 1rem;
     font-weight: bold;
-}
+  }
   /* Specific variations for different tags */
-.figure.tag-example::before {
-    content: "Example";
-    background: black;
-}
+  .figure.tag-recent::before {
+    content: "Reciente";
+    background: grey;
+  }
+  .figure.tag-report::before {
+    content: "Informe";
+    background: grey;
+  }
+  .figure.tag-essay::before {
+    content: "Escrito";
+    background: grey;
+  }
+  .figure.tag-conference::before {
+    content: "Conferencia";
+    background: grey;
+  }
+  .figure.tag-radio::before {
+    content: "AudioVisual";
+    background: grey;
+  }

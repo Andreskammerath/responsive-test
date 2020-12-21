@@ -2445,7 +2445,7 @@ span.meta_more:before {
     background-color:rgb(0,0,0);
     color:rgb(255,255,255);
     text-decoration: none;
-    text-transform: none
+    text-transform: none;
     letter-spacing: 1px;
     margin-bottom: 14px;
     text-shadow:1px 1px 0px rgba(0,0,0,0.5);
